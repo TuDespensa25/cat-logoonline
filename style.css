@@ -65,3 +65,9 @@ body {
     border-radius: 0.5rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+#footer {
+    background-color: black; /* Cambia el color de fondo a negro */
+    color: white; /* Opcional: Cambia el color del texto a blanco para que sea visible */
+    padding: 20px; /* Opcional: Ajusta el relleno según sea necesario */
+    text-align: center; /* Opcional: Centra el contenido del pie de página */
+  }

@@ -22,7 +22,7 @@ function Footer() {
                     </div>
                     
                     <div className="mt-8 text-center text-sm" data-name="footer-copyright">
-                        <p>© 2024 Mi Catálogo. Todos los derechos reservados.</p>
+                        <p>© 2025 TuDespensa.25. Todos los derechos reservados.</p>
                     </div>
                 </div>
             </footer>

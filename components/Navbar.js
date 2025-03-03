@@ -8,7 +8,7 @@ function Navbar() {
                     <div className="flex justify-between h-16">
                         <div className="flex items-center">
                             <a href="#" className="text-2xl font-bold text-primary" data-name="logo">
-                                Mi Catálogo
+                                TuDespensa.25
                             </a>
                         </div>
                         

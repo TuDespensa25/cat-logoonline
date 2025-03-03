@@ -8,7 +8,7 @@ function Navbar() {
                     <div className="flex justify-between h-16">
                         <div className="flex items-center">
                             <a href="#" className="text-2xl font-bold text-primary" data-name="logo">
-                                Mi Catálogo
+                               TuDespensa.25
                             </a>
                         </div>
                         
@@ -162,7 +162,7 @@ function Footer() {
                     </div>
                     
                     <div className="mt-8 text-center text-sm" data-name="footer-copyright">
-                        <p>© 2024 Mi Catálogo. Todos los derechos reservados.</p>
+                        <p>© 2025 TuDespensa.25. Todos los derechos reservados.</p>
                     </div>
                 </div>
             </footer>
@@ -240,48 +240,45 @@ function Home() {
 }
 
 const sampleProducts = [
-    {
-        id: 1,
-        name: "Aceite de Oliva Extra Virgen",
-        description: "Aceite de primera calidad, prensado en frío, ideal para ensaladas y cocina.",
-        category: "alimentos",
-        image: "images/aceite.jpg"
-    },
-    {
+    
+      // Alimentos (Cárnicos)
+      {
         id: 2,
-        name: "Detergente Multiusos",
-        description: "Limpiador concentrado para todo tipo de superficies.",
-        category: "aseo",
-        image: "images/detergente.jpg"
-    },
-    {
-        id: 3,
-        name: "Licuadora Profesional",
-        description: "Potente licuadora con múltiples velocidades y vaso de vidrio.",
-        category: "electrodomesticos",
-        image: "images/licuadora.jpg"
-    },
-    {
-        id: 4,
-        name: "Arroz Premium",
-        description: "Arroz de grano largo, perfecto para todo tipo de preparaciones.",
+        name: "Caja de Pollo",
+        description: "caja de 40 lb de muslo y contramuslo 4 paquetes de 10 lb",
         category: "alimentos",
-        image: "images/arroz.jpg"
-    },
-    {
-        id: 5,
-        name: "Jabón de Manos",
-        description: "Jabón líquido antibacterial con aroma a lavanda.",
-        category: "aseo",
-        image: "images/jabon.jpg"
-    },
-    {
-        id: 6,
-        name: "Cafetera Automática",
-        description: "Cafetera programable con filtro permanente y jarra de vidrio.",
-        category: "electrodomesticos",
-        image: "images/cafetera.jpg"
-    }
+        image: "images/pollocaja.png",
+        reciente: 0,
+      },
+      {
+        id: 3,
+        name: "Paquete de pollo 10 lb",
+        description: "paquete de 10 lb de muslo y contra muslo",
+        category: "alimentos",
+        image: "images/pollopqte.png",
+      },
+      {
+        id: 4,
+        name: "Lomo de cerdo deshuesado",
+        description: "Lomo de cerdo Importado sellado en bolsa de 4 lb",
+        category: "alimentos",
+        image: "images/lomo.png",
+      },
+      {
+        id: 8,
+        name: "Jamon vicky",
+        description: "Porción de 3 lb sellado al vacio",
+        category: "alimentos",
+        image: "images/vicky.png",
+      },
+      {
+        id: 9,
+        name: "Lomo ahumado",
+        description: "porcionado y sellado en 2 lb",
+        category: "alimentos",
+        image: "images/ahumado.png",
+        descuento: 10,
+      },
 ];
 
 function App() {
